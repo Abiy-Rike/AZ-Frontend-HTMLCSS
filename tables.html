@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My HTML Page</title>
+
+    <style>
+         table {
+      border-collapse: collapse;
+      width: 100%;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    th, td {
+      border: 2px solid #dddddd;
+      padding: 12px;
+    }
+    th {
+      background-color: #f2f2f2;
+      font-weight: bold;
+    }
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    td:hover {
+      background-color: #adebc0;
+    }
+    thead th {
+      background-color: #e1e1e1;
+    }
+    tfoot td {
+      background-color: #e1e1e1;
+      font-style: italic;
+    }
+      </style>
+</head>
+<body>
+    <h1>Fictional Individuals</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>City</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John Doe</td>
+          <td>New York</td>
+          <td>32</td>
+        </tr>
+        <tr>
+          <td>Jane Smith</td>
+          <td>London</td>
+          <td>28</td>
+        </tr>
+        <tr>
+          <td>Michael Johnson</td>
+          <td>Los Angeles</td>
+          <td>45</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">* Data is purely fictional for demonstration purposes.</td>
+        </tr>
+      </tfoot>
+    </table>
+</body>
+</html>
+
