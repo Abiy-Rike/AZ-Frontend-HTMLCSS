@@ -1,0 +1,26 @@
+/* Additional Styles for Web Page */
+
+/* Style the heading using a class selector */
+.heading-style {
+    background-color: #3366CC; /* Different background color */
+}
+
+/* Apply styles to the unordered list */
+ul {
+    border: 1px solid #000; /* 1-pixel solid border */
+    padding: 10px; /* Padding of 10 pixels */
+}
+
+/* Style the list items */
+ul li {
+    color: #666; /* Change text color */
+    font-weight: bold; /* Change font weight */
+    transition: background-color 0.3s, color 0.3s; /* Add transition for hover effect */
+}
+
+/* Hover effect for list items */
+ul li:hover {
+    background-color: #FFD700; /* Change background color on hover */
+    color: #333; /* Change text color on hover */
+}
+
